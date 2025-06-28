@@ -31,7 +31,7 @@ const certifications: Certificate[] = [
     credentialId: "",
     skills: [""],
     providerIcon: "",
-    platformIcon: "logos:",
+    platformIcon: "logos:infosys",
     color: "from-blue-500 to-blue-600",
     certificatePreview: "",
     providerIconSize: 64,

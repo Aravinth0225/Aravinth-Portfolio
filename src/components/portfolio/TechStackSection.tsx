@@ -15,6 +15,11 @@ interface TechItem {
 const techStackData: Record<string, TechItem[]> = {
   "Frontend": [
     {
+      name: "HTML",
+      icon: "skill-icons:html",
+      category: "Frontend",
+      description: "Building Structure of website",
+    },    {
       name: "React",
       icon: "skill-icons:react-dark",
       category: "Frontend",
@@ -37,6 +42,12 @@ const techStackData: Record<string, TechItem[]> = {
       icon: "devicon:typescript",
       category: "Frontend",
       description: "Type-safe JavaScript for scalable applications",
+    },
+        {
+      name: "Bootstrap CSS",
+      icon: "logos:bootstrap",
+      category: "Frontend",
+      description: "CSS framework for UI development",
     },
     {
       name: "Tailwind CSS",
@@ -79,21 +90,7 @@ const techStackData: Record<string, TechItem[]> = {
       description: "Fast, minimalist web framework for Node.js",
     },
   ],
-  "Cloud & DevOps": [
-        {
-      name: "Git",
-      icon: "devicon:git",
-      category: "Cloud & DevOps",
-      description: "Version control system",
-    },
-    {
-      name: "AWS",
-      icon: "skill-icons:aws-light",
-      category: "Cloud & DevOps",
-      description: "Amazon Web Services cloud platform",
-    },
-  ],
-    "Deployment": [
+  "Deployment": [
     {
       name: "Vercel",
       icon: "devicon:vercel",
@@ -106,6 +103,20 @@ const techStackData: Record<string, TechItem[]> = {
       category: "Hosting",
       description: "Netlify is a platform that includes build, deploy, and serverless backend services for web applications and dynamic websites.",
     },
+  ],
+  "Cloud & DevOps": [
+        {
+      name: "Git",
+      icon: "devicon:git",
+      category: "Cloud & DevOps",
+      description: "Version control system",
+    },
+    // {
+    //   name: "AWS",
+    //   icon: "skill-icons:aws-light",
+    //   category: "Cloud & DevOps",
+    //   description: "Amazon Web Services cloud platform",
+    // },
   ],
 };
 

@@ -123,7 +123,7 @@ export default function OverviewSection() {
                   {/* Expanded About Content */}
                   <div className="space-y-3 md:space-y-4 border-t border-gray-200/50 dark:border-gray-700/50 pt-4 md:pt-6">
                   <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
-                     I&apos;m Aravinth R, a passionate Full Stack Developer with hands-on experience in creating responsive, high-performance web solutions. I specialize in building scalable applications using React, Next.js, JavaScript, and the MERN stack.
+                     I&apos;m Aravinth R, a passionate Full Stack Developer with hands-on experience in creating responsive, high-performance web solutions. I specialize in building scalable applications using React, JavaScript, and the MERN stack.
                   </p>
                   <p className="text-sm md:text-base text-gray-700 dark:text-gray-300 leading-relaxed">
                    I&apos;ve led and contributed to various impactful projects including CGPA Calc, Student Management Systems, CTF platforms, and IoT-based irrigation systems. I&apos;m deeply involved in tech events organizing CTF competitions to promote hands-on learning and innovation.
@@ -138,7 +138,7 @@ export default function OverviewSection() {
                       Core Technologies
                     </h4>
                     <div className="flex flex-wrap gap-2 md:gap-3">
-                      {["HTML","CSS", "JavaScript", "React", "Next.js", "TypeScript", "Node.js", "Python", "AWS"].map((skill, index) => (
+                      {["HTML","CSS", "JavaScript", "React.js", "Next.js", "Node.js", "Python", "MySql", "MongoDB", "Vercel"].map((skill, index) => (
                         <motion.span
                           key={skill}
                           initial={{ opacity: 0, scale: 0 }}
@@ -282,9 +282,9 @@ export default function OverviewSection() {
               </h4>
               <div className="space-y-4">
                 {[
-                  { icon: "solar:star-bold", text: "Top Rated on Upwork", color: "text-yellow-600" },
-                  { icon: "solar:cpu-bolt-bold-duotone", text: "Expert in AI Integration", color: "text-blue-600" },
-                  { icon: "solar:code-square-bold", text: "50+ Projects Delivered", color: "text-green-600" },
+                  { icon: "solar:star-bold", text: "Event Co-ordinator", color: "text-yellow-600" },
+                  { icon: "solar:code-square-bold", text: "Expert in Web Development", color: "text-blue-600" },
+                  { icon: "solar:code-square-bold", text: "2+ Real World Projects Worked", color: "text-green-600" },
                 ].map((achievement, index) => (
                   <motion.div
                     key={index}
